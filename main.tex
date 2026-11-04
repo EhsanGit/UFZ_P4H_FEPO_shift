@@ -33,11 +33,11 @@
 
 \section{Introduction}\label{sec:intro}
 
-Leishmaniasis is a vector-borne disease caused by \spn{Leishmania} parasites and transmitted by the bite of phlebotomine sandflies. In southern Europe the dominant form is zoonotic visceral and cutaneous leishmaniasis caused by \spn{L.~infantum}, with dogs as the main reservoir \citep{Maia2023}. The same vectors, parasites and hosts link animal and human health, so changes in where the vectors live are a One Health question: they decide where veterinary and human health services have to look for new cases.
+Leishmaniasis is a vector-borne disease caused by \spn{Leishmania} parasites and transmitted by the bite of phlebotomine sandflies. In southern Europe the dominant form is zoonotic visceral and cutaneous leishmaniasis caused by \spn{L.~infantum}, with dogs as the main reservoir \citep{Berriatua2021, Maia2023}. The same vectors, parasites and hosts link animal and human health, so changes in where the vectors live are a One Health question \citep{Cosma2024}: they decide where veterinary and human health services have to look for new cases. In the Iberian Peninsula canine leishmaniasis is endemic but uneven, with long-standing foci, emerging foci and rising case numbers in regions considered non-endemic \citep{Galvez2020, Maia2026}.
 
-The distribution of sandflies in Europe has expanded beyond its historical Mediterranean range, and climate change is considered one of the drivers \citep{Carvalho2024, ClimaticChange2025}. Autochthonous leishmaniasis is now reported in regions that had none, and a climatic suitability indicator for \spn{L.~infantum} shows more suitable regions and a northward expansion in Europe from 2001--2010 to 2011--2020 \citep{Carvalho2024}. Most of this evidence comes from suitability or presence--absence models with static or decadal predictors. How the abundance of the vectors changes from year to year, and from which year a shift started, has not been quantified at the scale at which surveillance is organised.
+The distribution of sandflies in Europe has expanded beyond its historical Mediterranean range \citep{Maroli2013, Medlock2014}, and climate change is considered one of the drivers \citep{Koch2017, Chalghaf2018}. A climatic suitability indicator for \spn{L.~infantum} shows more suitable regions and a northward expansion towards central Europe from 2001--2010 to 2011--2020, and its suitability is associated with human visceral leishmaniasis incidence and canine seroprevalence \citep{Carvalho2024, Paz2024}. For twelve sandfly species of Europe, moisture is the main predictor of occurrence, and the suitable habitat is expected to expand mainly towards higher latitudes, while the observed distributions may lag behind \citep{Wang2025}. Most of this evidence comes from suitability or presence--absence models with static or decadal predictors. How the abundance of the vectors changes from year to year, and from which year a shift started, has not been quantified at the scale at which surveillance is organised.
 
-FEPO \citep{Soheili2025} predicts daily sandfly densities at about 1.7~km over Europe from meteorological, hydrological and morphological predictors. Its daily, kilometre-scale output over more than two decades allows a direct description of the movement of the predicted populations. Here we use it for the Iberian Peninsula, where sandflies and canine leishmaniasis are widespread and where the range limit of the vectors runs through the northern mountain ranges. We ask three questions: (i) do the predicted populations of \spn{P.~papatasi}, \spn{P.~perniciosus} and \spn{P.~sergenti} move, and in which direction; (ii) how fast, and from which year; (iii) is the result robust to the model inputs and to the way the shift is measured?
+FEPO \citep{Soheili2025} predicts daily sandfly densities at about 1.7~km over Europe from meteorological, hydrological and morphological predictors. Its daily, kilometre-scale output over more than two decades allows a direct description of the movement of the predicted populations. Here we use it for the Iberian Peninsula, where sandflies and canine leishmaniasis are widespread and where the range limit of the vectors runs through the northern mountain ranges. The analysis supports the early warning system for canine leishmaniasis of the Planet4Health project in the Iberian Peninsula \citep{Maia2026}. We ask three questions: (i) do the predicted populations of \spn{P.~papatasi}, \spn{P.~perniciosus} and \spn{P.~sergenti} move, and in which direction; (ii) how fast, and from which year; (iii) is the result robust to the model inputs and to the way the shift is measured?
 
 \section{Data and methods}\label{sec:methods}
 
@@ -88,7 +88,7 @@ Species & Centroid (km/decade) & Front (km/decade) & Occupied area (\%/decade) &
 
 \section{Discussion}\label{sec:discussion}
 
-\todo{(1) What moves and how fast, compared with published range expansion and suitability changes \citep{Carvalho2024, ClimaticChange2025}. (2) Which predictors drive the shift (temperature against soil moisture). (3) What the shift means for One Health surveillance: the northern regions with rising vector densities are where dogs and humans are least protected and least monitored. (4) Limits: predictions, not observed migration; training data until 2022; no projection.}
+\todo{(1) What moves and how fast, compared with published range expansion and suitability changes \citep{Carvalho2024, Wang2025}. (2) Which predictors drive the shift (temperature against soil moisture). (3) What the shift means for One Health surveillance: the northern regions with rising vector densities are where dogs and humans are least protected and least monitored. (4) Limits: predictions, not observed migration; training data until 2022; no projection.}
 
 \section{Conclusions}\label{sec:conclusions}
 
@@ -96,12 +96,12 @@ Species & Centroid (km/decade) & Front (km/decade) & Occupied area (\%/decade) &
 
 \backmatter
 
-\bmhead{Acknowledgements} \todo{Partners who provided the sandfly data of the FEPO training set.}
+\bmhead{Acknowledgements} We thank the EDENext and VectorNet initiatives and the regional data providers and individual contributors of the FEPO training data \todo{list as in \citealp{Soheili2025}}.
 
 \section*{Declarations}
 
 \begin{itemize}
-\item Funding: \todo{CLIMOS and Planet4Health (Horizon Europe), grant numbers}
+\item Funding: The CLIMOS consortium is co-funded by the European Commission (grant 101057690) and UKRI (grants 10038150 and 10039289); CLIMOS is one of the six Horizon Europe projects of the Climate Change and Health Cluster. Planet4Health \todo{grant number}.
 \item Competing interests: The authors declare no competing interests.
 \item Data availability: \todo{FEPO output for the Iberian Peninsula, Zenodo DOI}
 \item Code availability: analysis and figures, \url{https://git.ufz.de/planet4health/fepo_shift} \todo{public release}

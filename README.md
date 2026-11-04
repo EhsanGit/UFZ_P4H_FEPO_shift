@@ -5,6 +5,8 @@ Manuscript for **Climatic Change** (Springer Nature), https://link.springer.com/
 - **Analysis and figures:** `git.ufz.de/planet4health/fepo_shift` (`src/`), plan of the study in `docs/PLAN.md` there
 - **FEPO runs:** `git.ufz.de/climos/climos-recovery` (`scripts/fepo_run/run_year.sh`), FEPO branch `eve-ehsan-run`
 - **FEPO method:** Soheili et al. (2025), Research Square, doi:10.21203/rs.3.rs-7852217/v1
+- **Reproducibility (to do before submission):** GitHub repository `EhsanGit/FEPO-shift-reproducibility` with the scripts
+  and the yearly metrics (archived on Zenodo) that rebuild every figure and table, as `EhsanGit/WRR2-reproducibility`
 
 The draft is written with the FEPO version of the CLIMOS runs; figures and numbers are replaced by the revised version
 once it is ready. Placeholders are red (`\todo{...}`).
